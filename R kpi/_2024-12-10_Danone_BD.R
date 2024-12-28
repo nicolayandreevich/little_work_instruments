@@ -18,8 +18,8 @@ init_connection <- function() {
   con <- DBI::dbConnect(RPostgres::Postgres(),
                         host = "10.10.0.111",
                         dbname = "pet",
-                        user ="nyzhur", #Sys.getenv("nyzhur"),
-                        password = "GfkPass121293" #Sys.getenv("GfkPass121293"))
+                        user =""
+                        password = )
   )
 
 }
